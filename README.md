@@ -61,3 +61,40 @@ A simple yet powerful **College Management System** built with Django for educat
    ```bash
    git clone https://github.com/HARIHARANS24/college-management-system-django.git
    cd college-management-system-django
+---
+COLLEGE_MANAGEMENT_SYSTEM/
+│
+├── static/                             # Global static files (if any)
+│
+├── student_management_app/            # Main Django App
+│   ├── __pycache__/                    # Compiled Python files
+│   ├── migrations/                     # Database migrations
+│   ├── static/                         # App-specific static files
+│   ├── templates/                      # HTML templates
+│   ├── __init__.py
+│   ├── admin.py                        # Admin site configurations
+│   ├── apps.py                         # App config
+│   ├── EmailBackEnd.py                 # Custom email backend logic
+│   ├── forms.py                        # Django forms
+│   ├── HodViews.py                     # Views for HOD/Admin
+│   ├── StaffViews.py                   # Views for Staff
+│   ├── StudentViews.py                 # Views for Students
+│   ├── models.py                       # Database models
+│   ├── tests.py                        # Test cases
+│   ├── urls.py                         # App-level URLs
+│   ├── utils.py                        # Utility functions
+│   └── views.py                        # Generic/common views
+│
+├── student_management_project/        # Django Project Settings
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── asgi.py                         # ASGI config
+│   ├── settings.py                     # Project settings
+│   ├── urls.py                         # Project-level URL routing
+│   └── wsgi.py                         # WSGI config
+│
+├── db.sqlite3                          # SQLite database file
+├── manage.py                           # Django management utility
+├── README.md                           # Project documentation
+└── requirements.txt                    # Python dependencies
+---
